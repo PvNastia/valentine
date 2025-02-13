@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+  .carousel  { 
+    width: 283px;
+    margin: 0 auto;
+    
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 283px;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+  }
+ 
+  body {
+    padding: 0;
+    background-color: #e0e0e0;
+  }
+  
+  span, div, p, h1, h2, h3, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  .header-btn {
+      gap: 9px;
+      height: 50px;
+      text-align: center;
+      background-color: #9d9e9f;
+      justify-content: center;
+      margin-top: 19px;
+      border-radius: 4px;
+  
+    }
+    .header-btn__item {
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+      color:  #fcdae5;;
+      text-align: center;
+      padding: 11px 4px;
+      width: 92px;
+      height: 39px;
+      margin-top: 5px;
+    }
+    .header-btn__circle {
+      border-radius: 30px;
+      border: 2px solid  #fcdae5;;
+    
+      background: rgba(26, 25, 21, 0);
+    }
+    .text{
+      margin-top: 20px;
+      margin-bottom: 20 px;
+font-size: 20px;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+ color: #fcdae5;
+ border: #c3c8ce;
+ background-color: #9d9e9f;
+ border-radius: 4px;
+
+    }
+    .img{
+      width: 250px;
+      margin-left: 15px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+    }
+    .btnn{
+      font-family: "Montserrat", sans-serif;
+
+ border: #c3c8ce;
+ background-color: #9d9e9f;
+ border-radius: 4px;
+ width: 70px;
+ display: block;
+ margin: 0 auto;
+text-align: center;
+      a{
+        text-decoration: none;
+        color: #fcdae5;
+      }
+    }
+    .btnn:hover{
+background-color: #4a5057;
+    }
