@@ -79,13 +79,18 @@ font-family: "Montserrat", sans-serif;
  border-radius: 4px;
 
     }
+    .center {
+      display: flex;
+      justify-content: center; /* Центрує по горизонталі */
+      align-items: center; /* Центрує по вертикалі */
+
+  }
     .img{
       width: 250px;
-      margin-left: 15px;
-      margin-top: 20px;
-      margin-bottom: 20px;
 
-    }
+      
+    
+      }
     .btnn{
       font-family: "Montserrat", sans-serif;
 
@@ -103,4 +108,21 @@ text-align: center;
     }
     .btnn:hover{
 background-color: #4a5057;
+    }
+   footer {
+      gap: 9px;
+      height: 50px;
+      text-align: center;
+      background-color: #9d9e9f;
+      justify-content: center;
+      margin-top: 19px;
+      border-radius: 4px;
+  p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color:  #fcdae5;;
+    padding-top: 15px;
+  }
     }
