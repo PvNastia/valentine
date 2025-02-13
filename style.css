@@ -75,7 +75,7 @@ text-align: center;
 font-family: "Montserrat", sans-serif;
  color: #fcdae5;
  border: #c3c8ce;
- background-color: #9d9e9f;
+ background-color: #bfc3c7;
  border-radius: 4px;
 
     }
@@ -125,4 +125,7 @@ background-color: #4a5057;
     color:  #fcdae5;;
     padding-top: 15px;
   }
+    }
+    .lol{
+      margin-bottom: 20px;
     }
